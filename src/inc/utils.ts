@@ -8,7 +8,7 @@ export function inputToNumber(input: string): number | false {
 //Get data file contents as string
 export function getFileContents(path: string, _options: {
   flatten?: boolean;
-}): string {
+} = {}): string {
   // Default Options
   const options = {
     flatten: false,
