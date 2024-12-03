@@ -1,2 +1,2 @@
-import * as problems from '../../src/days';
+import * as days from '../../src/days';
 
