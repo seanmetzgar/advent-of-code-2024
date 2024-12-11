@@ -56,7 +56,11 @@ export function doDay(num: number): void {
     case 7:
       rawData = utils.getFileContents('./data/day07.dat');
       console.log(days.day07(rawData));
-      break
+      break;
+    case 8:
+      rawData = utils.getFileContents('./data/day08.dat');
+      console.log(days.day08(rawData));
+      break;
     default:
       console.clear();
       console.log("Invalid problem number");

@@ -18,12 +18,6 @@ function cloneMap(map: string[][]): string[][] {
   });
 }
 
-function prettyPrintMap(map: string[][]): void {
-  map.forEach((row) => {
-    console.log(row.join(''));
-  });
-}
-
 function findPatrol(map: string[][]): Position | false {
   for (let y = 0; y < map.length; y++) {
     for (let x = 0; x < map[y].length; x++) {
