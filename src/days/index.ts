@@ -5,6 +5,7 @@ import { day04 } from './day04';
 import { day05 } from './day05';
 import { day06 } from './day06';
 import { day07 } from './day07';
+import { day08 } from './day08';
 
 // export all
-export { day01, day02, day03, day04, day05, day06, day07 };
+export { day01, day02, day03, day04, day05, day06, day07, day08 };

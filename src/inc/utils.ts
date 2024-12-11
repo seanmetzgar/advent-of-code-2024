@@ -27,3 +27,9 @@ export function getFileContents(path: string, _options: {
   return str;
 }
 
+export function prettyPrint2D(map: string[][] | number[][]): void {
+  map.forEach((row) => {
+    console.log(row.join(''));
+  });
+}
+
